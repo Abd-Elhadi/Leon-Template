@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Cairo', sans-serif; */
+    /* font-family: 'Jomhuria', cursive; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.parent {
+    background-color: #ddd;
+}
+
+.container {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background: #aaa;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-wdith: 992) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
