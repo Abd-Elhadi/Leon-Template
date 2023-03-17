@@ -2,6 +2,9 @@
 :root {
     --main-color: #10cab7;
     --secondary-color: #2c4755;
+    --section-padding: 60px 0;
+    --section-background: #f6f6f6;
+    --font-color: #777;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -200,8 +203,8 @@ body {
 
 /* Start features */
 .features {
-    padding: 60px 0;
-    background-color: #F6F6F6;
+    padding: var(--section-padding);
+    background-color: var(--section-background);
 }
 
 .features .container {
@@ -226,7 +229,7 @@ body {
 
 .features .feat p {
     line-height: 1.8;
-    color: #777;
+    color: var(--font-color);
     font-size: 17px;
     text-align: justify;
     text-justify: auto;
@@ -235,7 +238,7 @@ body {
 
 /* start services */
 .services {
-    padding: 60px 0;
+    padding: var(--section-padding);
 }
 
 .services .services-content{
@@ -302,5 +305,46 @@ body {
         display: none;
     }
 }
-
 /* End services */
+
+/* Start portfolio */
+.portfolio {
+    padding: var(--section-padding);
+    background-color: var(--section-background);
+}
+
+.portfolio .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 80px;
+}
+
+.portfolio .portfolio-content .card {
+    background-color: white;
+}
+
+.portfolio .portfolio-content .card img {
+    max-width: 100%;
+}
+
+.portfolio .portfolio-content .card .info {
+    padding: 20px;
+}
+
+.portfolio .portfolio-content .card .info h3 {
+    margin: 0;
+}
+
+.portfolio .portfolio-content .card .info p {
+    color: var(--font-color);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .portfolio .portfolio-content .card .info {
+        text-align: center;
+    }
+}
+/* End portfolio */
