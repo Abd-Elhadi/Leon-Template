@@ -1,5 +1,5 @@
 
-# Leon-Template
+# Leon Template
 
 This is a project for creating a [Leon Template] using HTML and CSS.
 I created it to improve my HTML and CSS skills by building realistic projects.
