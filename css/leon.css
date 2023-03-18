@@ -375,9 +375,9 @@ body {
 
 .about .about-content .image {
     position: relative;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 70px; /* added */
+    width: 250px;
+    height: 375px;
+    margin-bottom: 120px; /* added */
 }
 
 @media (max-width: 991px) {
@@ -387,7 +387,7 @@ body {
 }
 
 .about .about-content .image::before {
-    content: '';
+    content: "";
     position: absolute;
     background-color: #ebeced;
     width: 100px;
@@ -398,15 +398,15 @@ body {
 }
 
 .about .about-content .image::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 200px;
-    border-left: 60px solid var(--main-color);
-    border-bottom: 60px solid var(--main-color);
-    z-index: -1;
-    right: -85px;
     top: -40px;
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    z-index: -1;
+    right: -150px;
 }
 
 @media (max-width: 991px) {
