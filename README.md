@@ -2,7 +2,7 @@
 # Leon-Template
 
 This is a project for creating a [Leon Template] using HTML and CSS.
-I created it to improve my coding skills by building realistic projects.
+I created it to improve my HTML and CSS skills by building realistic projects.
 
 ## Table of contents
 
@@ -86,11 +86,11 @@ The designs were created to the following widths:
 - [Summary CSS Course](https://elzero.org/category/courses/css-course/)
 ## Author
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IbrahimAlsabr)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abd-Elhadi)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ibrahim-alsabr-188939231/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelhadi-omar-b2a630173/)
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/home?lang=fr)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abdelhadiomarr)
 
 
 ## Acknowledgments
