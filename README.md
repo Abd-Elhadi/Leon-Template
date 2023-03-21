@@ -56,8 +56,8 @@ Users should be able to:
 
 ### Links
 
-- Source Code URL:  [here](https://github.com/IbrahimAlsabr/Leon-Template)
-- Live Site URL: [here](https://ibrahimalsabr.github.io/Leon-Template/)
+- Source Code URL:  [here](https://github.com/Abd-Elhadi/Leon-Template)
+- Live Site URL: [here](https://abd-elhadi.github.io/Leon-Template/)
 
 ## My process
 
